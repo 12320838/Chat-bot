@@ -1,7 +1,7 @@
 {
   "builds": [
     {
-      "src": "app.py",  // or whatever your entry point is
+      "src": "app.py",
       "use": "@vercel/python",
       "config": {
         "maxLambdaSize": "50mb"
